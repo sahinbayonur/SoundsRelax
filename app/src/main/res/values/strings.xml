@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Voice</string>
+
+    <string name="whiteToggleButtonOff">White Off</string>
+    <string name="whiteToggleButtonOn">White On</string>
+
+    <string name="pinkToggleButtonOff">Pink Off</string>
+    <string name="pinkToggleButtonOn">Pink On</string>
+
+    <string name="brownToggleButtonOff">Brown Off</string>
+    <string name="brownToggleButtonOn">Brown On</string>
+</resources>
