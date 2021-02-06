@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public SeekBar whiteVolumeSeekBar, pinkVolumeSeekBar, brownVolumeSeekBar;
     public MediaPlayer whiteNoiseMP, brownNoiseMP, pinkNoiseMP;
     public ToggleButton whiteNoiseToggle, brownNoiseToggle, pinkNoiseToggle;
-
     int soundNumber = 0;
-
     private NotificationManagerCompat notificationManager;
 
     @Override
@@ -127,9 +125,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showNotification() {
-
         int notificationId = 5;
-
         soundNumber++;
 
         //the actions in a notification are handeled through intents
@@ -174,7 +170,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void stopNotification() {
-
         try {
             // we don't need to be foreground anymore
             NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
